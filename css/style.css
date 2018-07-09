@@ -66,4 +66,13 @@ footer {
     float: left;
     margin: 0px 20px 0px 0px;
 }
-
+@media screen and (max-width: 640px){
+    .footer{
+        display: none;
+       
+    }
+    
+    header {
+        position: static;
+    }
+}
